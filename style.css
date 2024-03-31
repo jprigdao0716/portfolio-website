@@ -1,0 +1,359 @@
+body {
+
+    background-image: url("assassin-s-creed-black-flag-privateer-pirate-8k5r8amhkneoabfh.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+.avatar{
+	width: 28%;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 65rem;
+    top: 8rem;
+    position: relative;
+
+}
+
+section .caption{
+    font-size: 40px; 
+    color: white; 
+    text-align: left; 
+    margin-left: -15rem;
+    margin-top: -15rem;
+    position: relative;
+
+}
+
+section .caption2{
+    font-size: 30px; 
+    color: white; 
+    text-align: left; 
+    margin-left: -15rem;
+}
+
+section .about{
+
+    margin-top: 3rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0;
+}
+
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    color: #333;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+form input, textarea{
+    width: 300px;
+    padding: 10px;
+}
+
+input[type=text], [type=email]{
+    border: none;
+    border-bottom: 2px solid #333;
+  }
+
+textarea{
+    height: 180%;
+    width: 27%;
+    border: none;
+    border-bottom: 2px solid #333;
+
+}
+
+form {
+    display: grid;
+    grid-gap: 20px;
+}
+
+button[type="submit"] {
+    position: relative;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    top: 4rem;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #24262b;
+    margin-top: 40px;
+
+  
+  }
+  
+  footer.card{
+       justify-content: left;
+      
+  }
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+   margin-left: 3rem;
+}
+.footer-col h4{
+	font-size: 20px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left: -30px;
+	bottom: -10px;
+	background-color: red;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 15px;
+}
+.footer-col ul li a{
+	font-size: 20px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: red;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	margin-bottom: 10px;
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-links a{
+	margin-top: 10px;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: lightblue;
+}
+
+footer.card{
+	 justify-content: left;
+	
+}
+
+.img1{
+
+    width: 500px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 10px 10px 10px black;
+
+}
+
+
+.navbar-collapse li{
+	margin-left: 25rem;
+}
+
+.navbar-collapse a{
+    color: aliceblue;
+}
+.navbar{
+    background-color: #333;
+    opacity: 80%
+
+}
+
+.navbar-collapse li :hover{
+   text-decoration: underline;
+  -webkit-text-decoration-color: red; /* Safari */  
+   text-decoration-thickness: 30%;
+   text-decoration-color: whitesmoke;
+   color: red;
+}
+
+.holder .fa{
+	position: absolute;
+	margin-left: 24rem;
+	top: 14rem;
+}
+
+.holder{
+	display: none;
+}
+
+div h3, h5{
+
+	margin-left: 10rem;
+	color: white;
+}
+
+
+.testimonial {
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    background-color: white;
+  }
+
+  .testimonial img{
+    margin-left: -10px;
+  }
+
+.row h3{
+    color: black;
+}
+
+.img2 {
+    opacity: 5;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .img2 {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 5;
+  }
+  
+  .text {
+    background-color: black;
+    opacity: 80%;
+    color: white;
+    font-size: 16px;
+    padding: 30px 100px;
+  }
+@media screen and (max-width: 600px) {
+
+    .avatar{
+        width: 40%;
+        padding: 10px;
+        background-color: white;
+        border-radius: 10px;
+        margin-left: 8rem;
+        top: 3rem;
+        position: relative;
+    }
+    
+    section .caption{
+        font-size: 30px; 
+        color: white; 
+        text-align: left; 
+        margin-left: 1rem;
+        margin-top: 3rem;
+        position: relative;
+    
+    }
+    
+    section .caption2{
+        font-size: 15px; 
+        color: white; 
+        text-align: justify; 
+        margin-left: 0rem;
+    }
+    
+    section .about{
+    
+        margin-top: 0rem;
+    }
+    
+
+}
+
+@media screen and (max-width: 600px) {
+    .img1{
+        margin-left: -1.5rem;
+    }
+
+    textarea{
+        width: 67%;
+    }
+
+    @media(max-width: 767px){
+        .footer-col{
+          width: 50%;
+          margin-bottom: 30px;
+      }
+      }
+      @media(max-width: 700px){
+        .footer-col{
+          width: 100%;
+      }
+      }
+      
+      @media(max-width: 767px){
+          h1{
+          margin-bottom: 100px;
+          width: 100%;
+      }
+    }
+
+
+@media screen and (max-width: 500px) {
+    .container .img1{
+        width: 40%;
+       
+    }
+
+}
+
+}
