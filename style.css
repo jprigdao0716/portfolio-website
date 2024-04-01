@@ -284,6 +284,20 @@ div h3, h5{
   }
 @media screen and (max-width: 600px) {
 
+    .footer-col .social-links{
+        margin-left: -3rem;
+        margin-top: -5rem;
+    }
+
+    .footer-col .img-fluid{
+        margin-left: 2rem;
+        width: 50%;
+    }
+
+    .footer-col li{
+        margin-left: -5rem;  
+    }
+
     .avatar{
         width: 40%;
         padding: 10px;
@@ -293,7 +307,7 @@ div h3, h5{
         top: 3rem;
         position: relative;
     }
-    
+
     section .caption{
         font-size: 30px; 
         color: white; 
@@ -314,6 +328,10 @@ div h3, h5{
     section .about{
     
         margin-top: 0rem;
+    }
+
+    .img-fluid{
+        width: 70%;
     }
     
 
