@@ -367,13 +367,6 @@ div h3, h5{
       }
     }
 
-
-@media screen and (max-width: 500px) {
-    .container .img1{
-        width: 40%;
-       
-    }
-
 }
 
 }
