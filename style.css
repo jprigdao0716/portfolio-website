@@ -285,7 +285,7 @@ div h3, h5{
 @media screen and (max-width: 600px) {
 
     .footer-col .social-links{
-        margin-left: -6rem;
+        margin-left: -5rem;
         margin-top: -5rem;
     }
 
