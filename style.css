@@ -289,14 +289,16 @@ div h3, h5{
         margin-top: -5rem;
     }
 
+    .footer-col .social-links{
+        margin-left: -5rem;
+        margin-top: -5rem;
+    }
+
     .footer-col .img-fluid{
-        margin-left: 2rem;
+        margin-left: 0rem;
         width: 50%;
     }
 
-    .footer-col li{
-        margin-left: -5rem;  
-    }
 
     .avatar{
         width: 40%;
@@ -306,6 +308,10 @@ div h3, h5{
         margin-left: 8rem;
         top: 3rem;
         position: relative;
+    }
+
+    body{
+	overflow-x: hidden;
     }
 
     section .caption{
