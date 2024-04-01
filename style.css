@@ -16,7 +16,7 @@ body {
 
 
 .avatar{
-	width: 28%;
+    width: 28%;
     padding: 15px;
     background-color: white;
     border-radius: 10px;
@@ -338,8 +338,10 @@ div h3, h5{
 }
 
 @media screen and (max-width: 600px) {
-    .img1{
-        margin-left: -1.5rem;
+  
+   .container .img1{
+        margin-left: 0rem;
+        width: 75%;
     }
 
     textarea{
