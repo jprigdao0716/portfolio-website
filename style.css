@@ -285,12 +285,12 @@ div h3, h5{
 @media screen and (max-width: 600px) {
 
     .footer-col .social-links{
-        margin-left: -3rem;
+        margin-left: -6rem;
         margin-top: -5rem;
     }
 
     .footer-col .img-fluid{
-        margin-left: 0rem;
+        margin-left: -1rem;
         width: 60%;
     }
 
