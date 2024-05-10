@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+
 // select dom items
 const menuBtn = 
     document.querySelector(".menu-btn");
