@@ -16,13 +16,12 @@ body {
 
 
 .avatar{
-    width: 28%;
+	width: 20%;
     padding: 15px;
     background-color: white;
     border-radius: 10px;
-    margin-left: 65rem;
-    top: 8rem;
-    position: relative;
+    margin-left: 28rem;
+
 
 }
 
@@ -31,7 +30,7 @@ section .caption{
     color: white; 
     text-align: left; 
     margin-left: -15rem;
-    margin-top: -15rem;
+    margin-top: -8rem;
     position: relative;
 
 }
@@ -282,18 +281,8 @@ div h3, h5{
     font-size: 16px;
     padding: 30px 100px;
   }
+  
 @media screen and (max-width: 600px) {
-
-    .footer-col .social-links{
-        margin-left: -5rem;
-        margin-top: -5rem;
-    }
-
-    .footer-col .img-fluid{
-        margin-left: 0rem;
-        width: 50%;
-    }
-
 
     .avatar{
         width: 40%;
@@ -304,11 +293,7 @@ div h3, h5{
         top: 3rem;
         position: relative;
     }
-
-    body{
-	overflow-x: hidden;
-    }
-
+    
     section .caption{
         font-size: 30px; 
         color: white; 
@@ -330,19 +315,13 @@ div h3, h5{
     
         margin-top: 0rem;
     }
-
-    .img-fluid{
-        width: 70%;
-    }
     
 
 }
 
 @media screen and (max-width: 600px) {
-  
-   .container .img1{
-        margin-left: 0rem;
-        width: 75%;
+    .img1{
+        margin-left: -1.5rem;
     }
 
     textarea{
@@ -367,3 +346,14 @@ div h3, h5{
           width: 100%;
       }
     }
+
+
+@media screen and (max-width: 500px) {
+    .container .img1{
+        width: 40%;
+       
+    }
+
+}
+
+}
