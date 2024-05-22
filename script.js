@@ -35,6 +35,9 @@ const menuNav =
 const navItems = 
     document.querySelectorAll(".nav-item");
 
+const footerItems = 
+    document.querySelectorAll(".footer-col2"); // Note: Renamed to footerItems for clarity
+
 // Set the initial state of the menu
 let showMenu = false;
 
@@ -45,6 +48,9 @@ function toggleMenu() {
         menuBtn.classList.add("close");
         menu.classList.add("show");
         menuNav.classList.add("show");
+        footerItems.forEach((item) =>
+            item.classList.add("show")); // Iterate over each footerItem
+
         navItems.forEach((item) =>
             item.classList.add("show"));
 
@@ -54,6 +60,9 @@ function toggleMenu() {
         menuBtn.classList.remove("close");
         menu.classList.remove("show");
         menuNav.classList.remove("show");
+        footerItems.forEach((item) =>
+            item.classList.remove("show")); // Iterate over each footerItem
+
         navItems.forEach((item) =>
             item.classList.remove("show"));
 
