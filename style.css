@@ -103,7 +103,7 @@ button[type="submit"] {
 
 footer {
     text-align: center;
-    padding: 30px;
+    padding: 10px;
     background-color: #24262b;
     margin-top: 40px;
 
@@ -153,6 +153,12 @@ footer {
 	color: red;
 	padding-left: 8px;
 }
+
+.footer-col .social-links {
+    margin-left: -1rem;
+}
+
+
 .footer-col .social-links a{
 	margin-bottom: 10px;
 	display: inline-block;
@@ -167,9 +173,7 @@ footer {
 	transition: all 0.5s ease;
 }
 
-.footer-col .social-links a{
-	margin-top: 10px;
-}
+
 .footer-col .social-links a:hover{
 	color: #24262b;
 	background-color: lightblue;
@@ -191,17 +195,13 @@ footer.card{
 
 
 .navbar-collapse li{
-	margin-left: 25rem;
+	margin-left: 30rem;
 }
 
 .navbar-collapse a{
     color: aliceblue;
 }
-.navbar{
-    background-color: #333;
-    opacity: 80%
 
-}
 
 .navbar-collapse li :hover{
    text-decoration: underline;
@@ -228,7 +228,7 @@ div h3, h5{
 }
 
 
-.testimonial {
+.projects {
     text-align: center;
     padding: 30px;
     margin: 20px;
@@ -237,7 +237,7 @@ div h3, h5{
     background-color: white;
   }
 
-  .testimonial img{
+  .projects img{
     margin-left: -10px;
   }
 
@@ -315,6 +315,12 @@ div h3, h5{
     
         margin-top: 0rem;
     }
+
+    .footer-col .img-fluid {
+        margin-left: -3rem;
+        width: 60% !important;
+    
+    }
     
 
 }
@@ -346,6 +352,11 @@ div h3, h5{
           width: 100%;
       }
     }
+
+    .footer-col{
+    
+        margin-left: 1rem;
+     }
 
 
 @media screen and (max-width: 500px) {
