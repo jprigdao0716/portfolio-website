@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio Website</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
     rel="stylesheet"/>
@@ -112,64 +112,59 @@ header .nav-item a:hover {
         z-index: 999;
 }
 
-.navbar-collapse.show {
-  left: -13rem;
-  display: block;
-}
+      .navbar-collapse.show {
+        left: -13rem;
+        display: block;
+      }
 
-.navbar-collapse li {
-  left: 10rem;
-  margin-top: 3rem;
-}
+      .navbar-collapse li {
+        left: 10rem;
+        margin-top: 3rem;
+      }
 
-.navbar-collapse li :hover {
+      .navbar-collapse li :hover {
 
-    padding: 15px;
-    border-radius: 50px;
-}
-
-
+          padding: 15px;
+          border-radius: 50px;
+      }
 
 
-.container .caption {
-    display: none;
-}
+      .container .caption {
+          display: none;
+      }
 
-.menu-btn {
-  border: none;
-  background: none;
-  cursor: pointer;
-}
+      .menu-btn {
+        border: none;
+        background: none;
+        cursor: pointer;
+      }
 
-.navbar-toggler-icon {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 25px;
-  height: 25px;
-}
+      .navbar-toggler-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 25px;
+        height: 25px;
+      }
 
-.navbar-toggler-icon .btn-line {
-  width: 100%;
-  height: 3px;
-  background-color: white;
-}
+      .navbar-toggler-icon .btn-line {
+        width: 100%;
+        height: 3px;
+        background-color: white;
+      }
 
 
       .footer-col2.show{
-      display: block;
+        display: block;
       
       }
 
       .footer-col2.show .social-links2{
   
-    
         margin-left: 3rem;
         margin-top: 1rem;
         font-size: 20px;
-        
-        
-  
+          
       }
 
       .footer-col2 .social-links2 a{
@@ -269,7 +264,7 @@ header .nav-item a:hover {
         margin-top: 2rem;
         margin-left: 1rem;
         cursor: pointer;
-        transition: all 0.8s ease-out;
+        /* transition: all 0.8s ease-out; */
     }
  
     /* Styling the hamburger lines */
@@ -331,6 +326,16 @@ header .nav-item a:hover {
     margin: 5px;
   }
 
+  @media (max-width: 400px) {
+  .menu-btn {
+
+    margin-top: -2rem;
+    margin-left: 21rem;
+    cursor: pointer;
+
+}
+  }
+
   @media only screen and (min-width: 768px) {
     .menu-btn {
       display: none;
@@ -370,7 +375,7 @@ header .nav-item a:hover {
 
 
     
-    </style>
+</style>
 
 <header>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -407,7 +412,7 @@ header .nav-item a:hover {
   	 				<a href="#"><i class="fa fa-linkedin"></i></a>
           </div>
           </div>
-  	 			</div>
+  	 		 </div>
   	 		</div>
 			</div>
   	 	</div>
@@ -596,6 +601,3 @@ header .nav-item a:hover {
   </footer>
 </body>
 </html>
-
-
-
