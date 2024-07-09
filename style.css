@@ -177,8 +177,9 @@ footer {
 .footer-col .social-links a:hover{
 	color: #24262b;
 	background-color: lightblue;
+    	text-decoration: none;
+    
 }
-
 footer.card{
 	 justify-content: left;
 	
