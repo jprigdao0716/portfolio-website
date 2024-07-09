@@ -254,11 +254,6 @@ header .nav-item a:hover {
  
     }
 
-    .aboutme .img1{
-      width: 500px;
-    }
-    
-
     .menu-btn {
 
         z-index: 3;
@@ -358,10 +353,6 @@ header .nav-item a:hover {
   
 
   @media only screen and (min-width: 768px) {
-    .menu-btn {
-      display: none;
-    }
-
     .caption, .caption2{
       font-size: 10px;
     }
@@ -392,6 +383,127 @@ header .nav-item a:hover {
   .navbar-nav .nav-link {
     font-size: 14px; /* Adjust font size for iPad Air */
   }
+  
+}
+
+@media only screen and (min-width: 768px){
+
+  .navbar-collapse{
+    display: block;
+  }
+
+  .navbar-expand-lg .navbar-collapse {
+       display: contents;
+       
+ 
+    }
+
+  .navbar-expand-lg .navbar-nav {
+        margin-left: 60px;
+        flex-direction: row;
+    }
+
+
+
+    .aboutme p{
+        font-size: 23px;
+        margin-left: 0rem;
+    } 
+
+
+    .footer-col .social-links{
+      
+      margin-left: -5rem;
+      margin-top: 0rem;
+      display: flex;
+      }
+
+
+    .footer-col .social-links a{
+
+        display: flex;
+        flex-direction: column;
+        width: 20px;
+        background-color: rgba(255,255,255,0.2);
+        font-size: 20px;
+        padding: 25px;
+        color: #ffffff;
+
+    }
+
+    
+    .footer-col .social-links i{
+      margin-left: -8px;
+      margin-top: -10px;
+      
+}
+
+.aboutme {
+        padding: 20px;
+    }
+
+    .container {
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .avatar {
+        display: block;
+        margin: 0 auto;
+        border-radius: 50%;
+        max-width: 200px;
+        height: auto;
+    }
+
+    .caption, .caption2, .avatar {
+        text-align: center;
+        color: white;
+    }
+
+    @media (max-width: 768px) {
+        .caption2 {
+            font-size: 16px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .about {
+            font-size: 24px;
+        }
+
+        .caption2 {
+            font-size: 14px;
+        }
+
+        .container {
+            padding: 10px;
+        }
+    }
+
+
+    .caption, .caption2, .avatar {
+      opacity: 0;
+      transform: translateY(50px);
+      transition: opacity 1s, transform 1s;
+}
+
+    .caption.visible, .caption2.visible, .avatar.visible{
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .caption2 {
+      transform: translateX(50px);
+    }
+
+    .caption2.visible {
+      transform: translateX(0);
+    }
+
+    .avatar.visible {
+      transform: translateX(0);
+    }
 }
 
 
@@ -442,17 +554,20 @@ header .nav-item a:hover {
   </nav>
 </header>
 
-    <section id="aboutme" style="background-color: #24262b;">
+    <section id="aboutme" class="aboutme" style="background-color: #24262b;">
         <div class="container">
+         
         <center>
             <h1 class="about"style="color: white">About Me</h1>
         </center>
             <a href="index.php"><img src="includes/jprigdao.jpg" class="avatar"></a><br><br><br>
+
+            
             <p class="caption"><b>I am John Paul D. Rigdao</b></p><br> 
             <p class="caption2">Full Stack Developer & Multimedia Artist from Lubao, Pampanga.<br>
                I am a graduate of Bachelor of Science in Computer Science at Guagua National Colleges.<br>
                I am also a Guitarist, Song Writer, & Web Novel Author.<br><br> I believe everyone has the right to put together their own formula that makes them feel great. <br>All these values and faiths we have are supposed to be put together like a computer, so we can run efficiently and be happy. The bottom line is, "Life is a Game to be Enjoyed."</p>
-  
+        
         </div>
     </section>
 
