@@ -70,3 +70,30 @@ function toggleMenu() {
         showMenu = false;
     }
 }
+
+// $(document).ready(function(){
+//     $('.menu-btn').click(function(){
+//       $('#navbarSupportedContent').toggleClass('show');
+//     });
+//   });
+
+document.addEventListener('DOMContentLoaded', function () {
+    const caption = document.querySelector('.caption');
+    const caption2 = document.querySelector('.caption2');
+    const avatar = document.querySelector('.avatar');
+  
+    // Trigger animations
+    setTimeout(() => {
+        caption.classList.add('visible');
+    }, 1000);
+
+    setTimeout(() => {
+      caption2.classList.add('visible');
+    }, 2000);
+
+    setTimeout(() => {
+        avatar.classList.add('visible');
+      }, 1000);
+    
+  });
+  
